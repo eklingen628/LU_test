@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start Connection</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <!-- Brand/Logo area -->
+        <div class="logo-container">
+          <div class="logo">
+            <div class="logo-inner"></div>
+          </div>
+        </div>
+
+        <!-- Start Connection Text -->
+        <div class="text-section">
+          <h1 class="main-title">Start Connection</h1>
+          <p class="subtitle">
+            Connect securely to your account to get started
+          </p>
+        </div>
+
+        <!-- Login Button -->
+        <div class="button-container">
+          <button
+            class="login-button"
+            onclick="handleLogin()"
+            aria-label="Login to your account"
+          >
+            Login
+          </button>
+        </div>
+
+        <!-- Footer text -->
+        <div class="footer-text">
+          <p>Secure • Private • Reliable</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function handleLogin() {
+        console.log("Login button clicked");
+        // Add your login functionality here
+      }
+    </script>
+  </body>
+</html>
